@@ -17,9 +17,10 @@ h1{
     margin-bottom: 0;
 }
 p{
+    line-height: 1.5em;
     font-size: 15px;
     font-weight: 400;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .container{
     padding-top: 30px;
@@ -31,7 +32,6 @@ p{
     height: 420px;
     background: radial-gradient(circle 420px at top,hsl(213, 19%, 18%) ,hsl(213, 19%, 10%));
 }
-
 .container-rate{
     display: flex;
     flex-direction: column;
@@ -80,10 +80,7 @@ p{
     text-decoration: none;
     color: hsl(216, 12%, 54%);
 }
-.rate-buttons a:hover{
-    background-color: hsl(217, 12%, 63%);
-    color = hsl(0, 0%, 100%);
-}
+
 .container-thanks{
     display: flex;
     flex-direction: column;
