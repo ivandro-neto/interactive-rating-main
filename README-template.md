@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot first view](./Screenshots/screenshot.png)
+![Screenshot second view](./Screenshots/screenshot2.png)
 
 
 ### Links
