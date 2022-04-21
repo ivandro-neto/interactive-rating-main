@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "Overpass", sans-serif;
+}
+h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.container{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    width: 400px;
+    height: 410px;
+    background: linear-gradient(135deg , hsl(213, 19%, 18%) ,hsl(213, 19%, 10%));
+}
+
+.container-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content:center;
+    padding: 0;
+}
+.container-rate-img img{
+    background-color: hsl(213, 19%, 18%);
+    padding: 18px;
+    border-radius: 50%;
+}
+.container p{
+    color: hsl(216, 12%, 54%);
+}
+.container-rate button{
+    border: none;
+    border-radius: 20px;
+    font-size: large;
+    padding: 10px;
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: background-color 350ms;
+}
+.container-rate button:hover{
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.rate-buttons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    gap: 10px;
+}
+.rate-buttons li a{
+    border-radius: 50%;
+    display: flex;
+    background-color: hsl(213, 19%, 18%);
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 350ms;
+    
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+}
+.rate-buttons a:hover{
+    background-color: hsl(217, 12%, 63%);
+    color = hsl(0, 0%, 100%);
+}
+.container-thanks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 10px;
+}
+.container-message{
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%) !important;   
+    padding:5px 15px 5px 15px;
+
+}
+.container-thanks div{
+    width: fit-content;
+}
+.container-thanks-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-thanks-info p{
+    color: hsl(216, 12%, 54%);
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        border-radius: 40px;
+        width: 350px;
+        height: 400px;
+        }
+    .rate-buttons li a{
+            width: 50px;
+            height: 50px;        
+        }
+    .container-rate-img img{
+            padding: 10px;
+        }
+
+    p{
+        margin-top: 0px;
+        }
+    .container-thanks{
+        gap: 5px;
+        }
+}
+
