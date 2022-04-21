@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/ivandro-neto/interactive-rating-main.git)
+- Live Site URL: [Interative Rating Main](https://ivandro-neto.github.io/interactive-rating-main/)
 
 ## My process
 
@@ -46,6 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Github - [Ivandro Neto](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Ivandro Neto](https://github.com/ivandro-neto)
+- Frontend Mentor - [@ivandro-neto](https://www.frontendmentor.io/profile/ivandro-neto)
