@@ -27,14 +27,14 @@ p{
     padding-bottom: 30px;
     border-radius: 40px;
     width: 400px;
-    height: 410px;
-    background: linear-gradient(135deg , hsl(213, 19%, 18%) ,hsl(213, 19%, 10%));
+    height: 420px;
+    background: radial-gradient(circle 420px at top,hsl(213, 19%, 18%) ,hsl(213, 19%, 10%));
 }
 
 .container-rate{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     justify-content:center;
     padding: 0;
 }
@@ -48,9 +48,9 @@ p{
 }
 .container-rate button{
     border: none;
-    border-radius: 20px;
-    font-size: large;
-    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
     background-color:hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     transition: background-color 350ms;
